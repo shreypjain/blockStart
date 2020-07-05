@@ -5,6 +5,7 @@ address owner;
 uint fortune;
 bool isDeceased;
 
+
 constructor() public payable {
     owner = msg.sender;
     fortune = msg.value;
